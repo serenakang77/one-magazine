@@ -1,0 +1,746 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: "Cormorant Garamond", sans-serif;
+  background-color: #E3E3E3;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.logo {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  font-weight: 600;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+p, .navbar ul a, .copyright {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 2.9rem;
+}
+
+header {
+  background-image: url(../one-magazine-assets/image-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80rem;
+  color: white;
+  font-style: italic;
+}
+
+.wrapper {
+  max-width: 1280px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.menuBar {
+  display: none;
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+}
+.space ul{
+  padding-left: 0;
+}
+.flexBasisContainer li{
+  width: 32%;
+}
+.flexBasisContainer img{
+  width: 100%;
+}
+h1 {
+  font-size: 15rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 70%;
+  padding: 10rem 0 0 0;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.icon i {
+  color: white;
+  padding: 0.7rem;
+  margin-right: 3rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 4.9rem;
+  margin: 0;
+  line-height: 5rem;
+}
+
+.flexBasisContainer {
+  display: flex;
+  margin-bottom: 5rem;
+  justify-content: space-between;
+}
+
+.firstHeader {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.space {
+  margin-top: 10rem;
+}
+
+.section2Image img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.flexContainer {
+  display: flex;
+}
+
+.section2Content {
+  margin-left: 3rem;
+  flex-basis: 75%;
+}
+
+.section2Image {
+  flex-basis: 25%;
+}
+.button, .buttonBigger{
+  background-color: rgba(24, 51, 153, 0.78);
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-size: 1.8rem;
+  padding: 10px 25px;
+  line-height: 2.9rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.menuButton{
+  background-color:unset;
+  font-size: 10vw;
+  border: none;
+  color: white;
+}
+
+.wrapper2 {
+  max-width: 95.25%;
+  margin-left: 5%;
+  display: flex;
+}
+
+.wrapper3 {
+  max-width: 95.25%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section3Content, .section4Content {
+  max-width: 47.5%;
+  padding: 10rem 0;
+}
+
+.section4Content {
+  padding-left: 10rem;
+}
+
+.section3Image, .section4Image {
+  max-width: 52.5%;
+}
+
+.section3Image img, .section4Image img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.backgroundImage {
+  background-image: url(../one-magazine-assets/image-1.jpg);
+  padding: 10rem 0;
+}
+
+.backgroundImage nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.backgroundImage a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.column i {
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.emailbutton {
+  background-color: black;
+  padding: 7px 25px;
+  color: white;
+  border: none;
+  font-size: 1.8rem;
+  font-family: "Cormorant Garamond", sans-serif;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  margin: 10px 0 5px 0;
+}
+
+.navs nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.navs {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  padding-left: 30px;
+  width: 100%;
+  height: 4.3rem;
+}
+
+.emailFormat {
+  flex-basis: 45%;
+}
+
+.mediaFormat {
+  flex-basis: 52%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.email {
+  display: flex;
+}
+
+.contactFormat {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact, .nav {
+  flex-basis: auto;
+  justify-content: center;
+}
+
+.greyBackground {
+  background-color: #E3E3E3;
+  padding: 80px 0 80px 0;
+  font-size: 1.7rem;
+}
+
+.emailContent {
+  margin: 0 0 5px 0;
+}
+
+.contact p {
+  margin: 0;
+  line-height: 2.5rem;
+}
+
+.navs a {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  text-decoration: none;
+  text-align: right;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+
+.copyright {
+  background-color: #ACACAC;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 7px 0;
+  margin: 0;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: clamp(5rem, 14.5vw, 14rem);
+    padding: 10rem 0 7rem 0;
+  }
+  .section4Content {
+    padding: 5rem 0 5rem 5rem;
+  }
+  h2 {
+    font-size: 3.9rem;
+  }
+  .section3Content {
+    padding: 5rem 0;
+  }
+}
+@media (max-width: 800px) {
+  .mobileHide, .logo {
+    display: none;
+  }
+  .navbar nav {
+    justify-content: end;
+  }
+  .menuBar {
+    display: block;
+    margin: 1rem;
+  }
+  .bigger {
+    font-size: 22vw;
+  }
+  .icon {
+    display: none;
+  }
+  h2 {
+    font-size: 6rem;
+    text-align: center;
+    line-height: 6rem;
+  }
+  p {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  .mobileHiddenImage {
+    display: none;
+  }
+  .flexBasisContainer li {
+    width: 48%;
+  }
+  .flexBasisContainer img{
+    width: 100%;
+  }
+  .flexContainer {
+    flex-direction: column;
+  }
+  .section2Image {
+    display: flex;
+    justify-content: center;
+  }
+  .section2Content {
+    text-align: center;
+  }
+  .section2Content p {
+    text-align: left;
+  }
+  .section2Content h2 {
+    margin-top: 5rem;
+  }
+  .button, .buttonBigger{
+    font-size: clamp(2rem, 4.2vw, 4rem);
+  }
+  .button {
+    width: 25rem;
+    padding: 3rem 0;
+  }
+  .buttonBigger {
+    padding: 4rem 0;
+    width: 60%;
+    margin-top: 2vh;
+  }
+  .emailbutton {
+    padding: 15px 25px;
+    font-size: 3rem;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  .reverse {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+  .section3Image {
+    margin-top: 10rem;
+  }
+  .section3Content, .section3Image, .section4Content, .section4Image {
+    max-width: 100%;
+  }
+  .section3Content, .section4Content {
+    margin: 0 5%;
+    text-align: center;
+  }
+  .section4Content {
+    padding-left: 0;
+  }
+  .wrapper2, .wrapper3 {
+    margin: 0;
+    max-width: 100%;
+  }
+  .column i {
+    font-size: 7rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  .contactFormat p {
+    font-size: 2.5rem;
+  }
+  .backgroundImage {
+    padding: 5rem 0;
+  }
+  .backgroundImage nav {
+    flex-direction: column-reverse;
+  }
+  .backgroundImage a {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .column i {
+    margin-top: 5vh;
+  }
+  .greyBackground {
+    padding: 4rem 0 4rem 0;
+  }
+  .greyBackground .flexContainer, .email {
+    display: block;
+  }
+  .emailFormat {
+    text-align: center;
+  }
+  .mediaFormat {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4vh;
+    align-items: center;
+  }
+  .contact, .nav {
+    flex-basis: auto;
+  }
+  input {
+    padding: 0;
+    text-align: center;
+    height: 5.9rem;
+    font-size: 3rem;
+  }
+  .mediaFormat nav {
+    font-size: 2.1rem;
+  }
+  .copyright {
+    padding: 15px 0;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 700px) {
+  h2 {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 600px) {
+  h2 {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+  .contactFormat p {
+    font-size: 2rem;
+  }
+  input {
+    font-size: 2.5rem;
+  }
+  .emailbutton {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 500px) {
+  header{
+    height: 65rem;
+  }
+  .buttonBigger {
+    padding: 3rem 0;
+  }
+  .space{
+    margin-top: 6rem;
+  }
+  .button {
+    width: 22rem;
+    padding: 2rem 0;
+  }
+}
+@media (max-width: 400px) {
+  p {
+    font-size: 2.5rem;
+  }
+  .section3Content, .section4Content {
+    padding: 5rem 0;
+  }
+  .column i {
+    font-size: 6rem;
+  }
+  .backgroundImage a {
+    font-size: 2.5rem;
+  }
+  .contactFormat p {
+    font-size: 1.5rem;
+  }
+  .mediaFormat nav {
+    font-size: 1.5rem;
+  }
+}
